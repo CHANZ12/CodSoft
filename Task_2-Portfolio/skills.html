@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<body  background="protf.jpg" >
+        
+    <link rel="stylesheet" href="style.css">
+
+    <button><a href="index.html">Home</a></button>
+
+    <h1 > -- MY SKILLS --</h1>
+    <br>
+    <br>
+
+
+<h2>Skilled in <b>HTML</b> and <b>css</b>, ---  I design captivating and user-friendly web interfaces.<br><br> My <b>Java</b>  -- proficiency guarantees seamless and scalable backend solutions.<br><br> Leveraging <b>Python</b>, -- I develop dynamic applications with ease and efficiency.<br> <br>In the realm of  <b>Data-Science</b>, -- I adeptly uncover valuable insights from intricate datasets using advanced statistical methods and  <b>machine learning</b>techniques.</h2><br>  
+</body>
+
+
+
+<style>
+    .container {
+      width: 1300px;
+      height: 50px;
+      position: absolute;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      overflow: hidden;
+      
+      
+    }
+    
+    .skill {
+      width: 0;
+      height: 100%;
+      background-color: gray;
+      position: absolute;
+      left: 0%;
+      top: 0;
+      transition: width 2s ease-in-out;
+    }
+    
+    .container:hover .skill {
+      width: 100%;
+    }
+    
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 15px;
+    }
+    </style>
+    
+    
+
+
+<style>
+
+.text {
+    position: relative;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+    
+
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        line-height: 2;
+
+    }
+
+    h2{
+        color: white; 
+        text-align: left;
+        line-height: 1;
+        text-shadow: 0 0 25px black;
+
+    }
+
+    
+  
+    body{
+        background-size: cover;
+    }
+    a{
+        text-align: center;
+    }
+    button
+    {
+
+        position: absolute;
+        left:90%;top:2%;
+        background-color: transparent;
+        border-radius: 50px;
+        border-color: whitesmoke;
+        width: 110px;
+        height: 30px;
+        a
+        {
+            color: whitesmoke;
+        }
+    }
+
+    button:hover{
+        transform: rotate(0deg);
+        transition: 1s;
+    }
+    .logo:hover{
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+    .logo{
+    position: absolute;
+    right:85%;left:2%;top:2%;
+}
+    p{
+        color: white;
+        font-size: 20px;
+
+        text-align: center;
+        margin-top: 2%;
+        line-height: 2;
+        
+        
+    }
+</style>
+<br>
+<br>
+<br>
+
+<div class="container">
+    <div class="skill"></div>
+    <div class="text">Skills</div>
+  </div>
+<style>
+    .skills-container {
+      position: relative;
+      align-items: center;
+      width: 400px;
+      height: 400px;
+    }
+   
+  
+    .skill-item {
+      position: absolute;
+      width: 90px;
+      height: 50px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      animation: circle-animation 10s linear infinite;
+    }
+  
+    .html {
+      top: 50%;
+      left: 80%;
+      background-color: #f44336;
+      animation-delay: 1s;
+    }
+  
+    .css {
+      top: 50%;
+      left: 120%;
+      background-color: #2196f3;
+      animation-delay: 1s;
+    }
+  
+    .java {
+      top: 50%;
+      left: 160%;
+      background-color: #fdd835;
+      animation-delay: 1s;
+    }
+  
+    .data-science {
+      top: 50%;
+      left: 200%;
+      background-color: #00bcd4;
+      animation-delay: 1s;
+    }
+
+    .Python{
+        top: 50%;
+      left: 240%;
+      background-color: #00bcd4;
+      animation-delay: 1s;
+    }
+
+    .Data-Analyss{
+        top: 50%;
+      left: 280%;
+      background-color: #00bcd4;
+      animation-delay: 1s;
+
+    }
+  
+    @keyframes circle-animation {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+      }
+    }
+  </style>
+  
+  <body>
+    <div class="skills-container">
+      <div class="skill-item html">HTML</div>
+      <div class="skill-item css">CSS</div>
+      <div class="skill-item java">Java</div>
+      <div class="skill-item Python">Python</div>
+      <div class="skill-item data-science">Data-Science</div>
+      <div class="skill-item Data-Analyss">Ms-Excel</div>
+
+
+
+    </div>
+  </body>
+
+
+
+
+</html>
